@@ -1,97 +1,92 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Abang Njure Emmanuel — Front-end Developer",
+  author: "Abang Njure Emmanuel",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Front-end developer & Computer Science undergraduate focused on responsive UI, accessibility, and performant web experiences.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/src/assets/emmanuelbig.jpg",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "Website", href: "https://njure-vercel.app" },
+    { text: "Email", href: "mailto:emmanuelabang2000@gmail.com" },
+    { text: "LinkedIn", href: "https://www.linkedin.com/in/emmanuel-abang-902794236//" },
+    { text: "Github", href: "https://github.com/iexwr" },
+    { text: "Instagram", href: "https://www.instagram.com/house_of_njay_/?hl=en/" },
   ],
-  socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  socialImage: "/src/assets/emmanuelbig.jpg",
+  canonicalURL: "https://njure-vercel.app",
 };
 
 export const SITE_CONTENT: SiteContent = {
-  hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+  hero: { 
+    name: "Abang Njure Emmanuel",
+    specialty: "Front-end Developer & Computer Science Undergraduate",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "An experienced and well nurtured front-end developer with a core foundation in computer science principles and a proven ability to enhance systems performance. Known for driving measurable improvements in user experience, application speed, and code quality while maintaining a strong attention to detail and best engineering practices.",
+    email: "emmanuelabang2000@gmail.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "Freelance",
+      position: "Frontend Developer & Junior Mobile UI Designer",
+      startDate: "2022",
+      endDate: "2025",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Delivered frontend solutions and mobile UI designs for client projects, focusing on clean UI implementation, responsive design, and user-centered experiences.",
+        "Worked closely with stakeholders to refine designs and ensure seamless handoff between design and development.",
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "Frances Computer Company - Benin",
+      position: "Graduate Intern (Onsite)",
+      startDate: "2020",
+      endDate: "2021",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "Contributed to front-end features and testing for customer-facing web applications.",
+        "Gained practical experience in real-world product development and deployment workflows.",
       ],
     },
     {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
+      company: "AgriChain Services",
+      position: "Contributor",
+      startDate: "2021",
+      endDate: "2022",
+      summary: [
+        "Worked on agricultural service web features and integrations.",
+      ],
     },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      name: "Dementia AI Chatbot",
+      summary:
+        "Mobile-first AI chatbot to support dementia patients through intuitive UX, conversational assistance, and haptic feedback interactions. Runner-up at National Hackathon - Nigeria.",
+      linkPreview: "https://github.com/d3vobed/conversational-ai/releases/",
+      linkSource: "https://github.com/d3vobed/conversational-ai/",
+      image: "/src/assets/image.png",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
-    },
-    {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      name: "Web3 Integration",
+      summary:
+        "Integrated a full blockchain network with functional web3 calls using Alchemy and Supabase to enable transactions and state management in a web UI.",
+      linkPreview: "https://agrichain-frontend.vercel.app/",
+      linkSource: "https://github.com/chainNG/agrichain-frontend",
+      image: "/src/assets/pic.png",
     },
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
+      An experienced and well nurtured front-end developer with a strong foundation in computer science and a proven ability to design and build performant, accessible web applications. I focus on enhancing user experience, application speed, and code quality while following best engineering practices.
 
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      I have completed formal studies in Computer Science, gaining solid skills in algorithms, system design, and application development. I enjoy solving UI problems, improving accessibility, and building products that make a measurable difference for users.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/src/assets/emmanuelbig.jpg",
   },
 };
 
